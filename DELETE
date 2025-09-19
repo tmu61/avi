@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import sys,os,requests,json
+
+from aviapi import DELETE,AUTH
+import aviapi
+
+AUTH()
+
+if len(sys.argv) < 2:
+    print("argument required", file=sys.stderr)
+    exit(2)
+url=sys.argv[1]
+rc=DELETE(url)
+print(rc, file=sys.stderr)
+

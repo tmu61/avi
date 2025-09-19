@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+import requests
+import json
+import os
+import sys
+from aviapi import POST,AUTH
+
+AUTH()
+
+print("Processing ",sys.argv[2])
+POST(sys.argv[1],sys.argv[2])
+

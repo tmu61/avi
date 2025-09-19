@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import sys,os,requests,json
+
+from aviapi import PUT,AUTH
+import aviapi
+
+AUTH()
+
+if len(sys.argv) < 2:
+    print("argument required", file=sys.stderr)
+    exit(3)
+print("Processing ",sys.argv[1], file=sys.stderr)
+PUT(sys.argv[1])
+

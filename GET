@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import sys,os,requests,json
+from aviapi import GET,AUTH,json_print
+import aviapi
+
+AUTH()
+
+if len(sys.argv) < 2:
+    print("argument required", file=sys.stderr)
+    exit(2)
+request=sys.argv[1]
+rc=GET(request)
+print(rc, file=sys.stderr)
+json_print(aviapi.json_data)
