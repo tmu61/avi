@@ -1,6 +1,6 @@
 # Installation
 1. Clone this repository
-2. Put all files into a directory which is in your PATH (e.g. $HOME/bin
+2. Put all files into a directory which is in your PATH (e.g. $HOME/bin). README.md is not needed
 
 # Usage
 1. Set the environment variable REST_ENDPOINT to the FQDN of you AVI controller (virtual IP)
