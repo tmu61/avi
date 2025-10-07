@@ -9,4 +9,6 @@
 username:password
 1
 
+3. Use the commands GET, PUT etc. (like **GET /api/virtualservice**)
+   
 ## Beware of multi user systems, make sure your .auth file has proper permissions and is only readable for you
