@@ -9,4 +9,4 @@
 username:password
 1
 
-##Beware of multi user systems, make sure your .auth file has proper permissions and is only readable for you
+## Beware of multi user systems, make sure your .auth file has proper permissions and is only readable for you
