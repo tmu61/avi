@@ -7,6 +7,7 @@
 2. (Optional) In order to avoid typing in username and password every time, create a file $HOME/creds/<FQDN of AVI>.auth in the following format:
 
 username:password
+
 1
 
 3. Use the commands GET, PUT etc. (like **GET /api/virtualservice**)
